@@ -1,0 +1,18 @@
+{
+  "name": "grpc_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serverStart" : "node index.js",
+    "clientStart" : "node getStudents.js",
+    "start": "npm run serverStart && npm run clientStart"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.2",
+    "grpc": "^1.24.2",
+    "uuid": "^3.3.3"
+  }
+}
